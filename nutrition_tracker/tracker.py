@@ -10,10 +10,10 @@ class FoodItem:
 
     Attributes:
         name (str): Name of food item.
-        calories (flaot): Caloric content in kcal.
+        calories (float): Caloric content in kcal.
         protein (float): Protein content in grams.
-        fat (flaot): Fat content in grams.
-        carbs (flaot): Carbohydrate content in grams.
+        fat (float): Fat content in grams.
+        carbs (float): Carbohydrate content in grams.
     """
     def __init__(self, name, calories, protein, fat, carbs):
         self.name = name
@@ -91,7 +91,7 @@ class FoodItem:
 
 def get_items():
     """
-        Collects user input in the form of food and weight desctiptions.
+        Collects user input in the form of food and weight descriptions.
 
         Returns:
             list: a list of valid food query strings

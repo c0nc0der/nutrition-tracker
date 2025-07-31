@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, Mock
-from nutrition_tracker import FoodItem, get_items, calculate_total
+from nutrition_tracker.nutrition_tracker import FoodItem, get_items, calculate_total
 
 
 class TestFoodItem(unittest.TestCase):
